@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/designagency/static/css/main.e6c13ad2.css",
-    "main.js": "/designagency/static/js/main.bc644543.js",
+    "main.js": "/designagency/static/js/main.cec908e9.js",
     "static/js/787.f9b93e12.chunk.js": "/designagency/static/js/787.f9b93e12.chunk.js",
     "static/media/Home.png": "/designagency/static/media/Home.e1be7c0f87fd1d6cc76f.png",
     "index.html": "/designagency/index.html",
     "main.e6c13ad2.css.map": "/designagency/static/css/main.e6c13ad2.css.map",
-    "main.bc644543.js.map": "/designagency/static/js/main.bc644543.js.map",
+    "main.cec908e9.js.map": "/designagency/static/js/main.cec908e9.js.map",
     "787.f9b93e12.chunk.js.map": "/designagency/static/js/787.f9b93e12.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.bc644543.js"
+    "static/js/main.cec908e9.js"
   ]
 }
