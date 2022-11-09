@@ -50,7 +50,7 @@ function Industries() {
   };
 
   return (
-    <div className="container-fluid" style={measurement}>
+    <div className="container-fluid-sm" style={measurement}>
       <div>
         <h1 style={Heading}>
           WE ARE WORKING <br />
@@ -61,122 +61,99 @@ function Industries() {
       <div style={cardMenu}>
         <div className="row" style={row}>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Media}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                MEDIA & <br /> ENTERTAINMENT
-              </span>
-            </div>
+            <img src={Media} alt="some" className="float-start" style={image} />
+            <span style={text}>
+              MEDIA & <br /> ENTERTAINMENT
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Health}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                HEALTH CARE & <br />
-                WELLNESS
-              </span>
-            </div>
+            <img
+              src={Health}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              HEALTH CARE & <br />
+              WELLNESS
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Hospitality}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                HOSPITALITY & <br />
-                REAL ESTATE
-              </span>
-            </div>
+            <img
+              src={Hospitality}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              HOSPITALITY & <br />
+              REAL ESTATE
+            </span>
           </div>
         </div>
 
         <div className="row" style={row}>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Retail}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                RETAIL & <br />E COMMERCE
-              </span>
-            </div>
+            <img
+              src={Retail}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              RETAIL & <br />E COMMERCE
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Education}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                EDUCATION & <br />
-                LEARNING
-              </span>
-            </div>
+            <img
+              src={Education}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              EDUCATION & <br />
+              LEARNING
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Travel}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                TRAVEL & <br /> TRANSPORT
-              </span>
-            </div>
+            <img
+              src={Travel}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              TRAVEL & <br /> TRANSPORT
+            </span>
           </div>
         </div>
 
         <div className="row" style={row}>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Mobile}
-                alt="some"
-                style={image}
-                className="float-start"
-              />
-              <span style={text}>
-                MOBILE & <br />
-                TELECOM
-              </span>
-            </div>
+            <img
+              src={Mobile}
+              alt="some"
+              style={image}
+              className="float-start"
+            />
+            <span style={text}>
+              MOBILE & <br />
+              TELECOM
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img src={IT} alt="some" style={image} className="float-start" />
-              <span style={text}>IT & ITES</span>
-            </div>
+            <img src={IT} alt="some" style={image} className="float-start" />
+            <span style={text}>IT & ITES</span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Agritech}
-                alt="some"
-                style={image}
-                className="float-start"
-              />
-              <span style={text}>AGRITECH</span>
-            </div>
+            <img
+              src={Agritech}
+              alt="some"
+              style={image}
+              className="float-start"
+            />
+            <span style={text}>AGRITECH</span>
           </div>
         </div>
       </div>

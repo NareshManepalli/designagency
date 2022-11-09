@@ -52,7 +52,7 @@ function Measurement() {
   };
 
   return (
-    <div className="container-fluid" style={measurement}>
+    <div className="container-fluid-sm" style={measurement}>
       <div>
         <h1 style={Heading}>
           MEASUREMENT <br />
@@ -64,120 +64,99 @@ function Measurement() {
       <div style={cardMenu}>
         <div className="row" style={row}>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Transparency}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                TRANSPARENCY AND <br /> RELIABILITY
-              </span>
-            </div>
+            <img
+              src={Transparency}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              TRANSPARENCY AND <br /> RELIABILITY
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={RealTime}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                REAL TIME PROJECT <br />
-                STATUS
-              </span>
-            </div>
+            <img
+              src={RealTime}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              REAL TIME PROJECT <br />
+              STATUS
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={WellStructured}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                WELL STRUCTURED <br />
-                COMMUNICATION
-              </span>
-            </div>
+            <img
+              src={WellStructured}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              WELL STRUCTURED <br />
+              COMMUNICATION
+            </span>
           </div>
         </div>
 
         <div className="row" style={row}>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Agile}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                AGILE <br />
-                METHODOLGY
-              </span>
-            </div>
+            <img src={Agile} alt="some" className="float-start" style={image} />
+            <span style={text}>
+              AGILE <br />
+              METHODOLGY
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Onsite}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                ONSITE <br />
-                COLLABORATION
-              </span>
-            </div>
+            <img
+              src={Onsite}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              ONSITE <br />
+              COLLABORATION
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Innovation}
-                alt="some"
-                className="float-start"
-                style={image}
-              />
-              <span style={text}>
-                INNOVATION AT <br /> WORK
-              </span>
-            </div>
+            <img
+              src={Innovation}
+              alt="some"
+              className="float-start"
+              style={image}
+            />
+            <span style={text}>
+              INNOVATION AT <br /> WORK
+            </span>
           </div>
         </div>
 
         <div className="row" style={row}>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Clients}
-                alt="some"
-                style={image}
-                className="float-start"
-              />
-              <span style={text}>
-                CLIENT'S INVOLVEMENT <br />
-                IN EACH MILESTONE
-              </span>
-            </div>
+            <img
+              src={Clients}
+              alt="some"
+              style={image}
+              className="float-start"
+            />
+            <span style={text}>
+              CLIENT'S INVOLVEMENT <br />
+              IN EACH MILESTONE
+            </span>
           </div>
           <div className="col-sm-4">
-            <div className="container-sm">
-              <img
-                src={Dedicated}
-                alt="some"
-                style={image}
-                className="float-start"
-              />
-              <span style={text}>
-                DEDICATED <br />
-                TEAM
-              </span>
-            </div>
+            <img
+              src={Dedicated}
+              alt="some"
+              style={image}
+              className="float-start"
+            />
+            <span style={text}>
+              DEDICATED <br />
+              TEAM
+            </span>
           </div>
           <div className="col-sm-4"></div>
         </div>

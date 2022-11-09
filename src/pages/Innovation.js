@@ -149,17 +149,15 @@ function Innovation() {
           </div>
         </nav>
 
-        <div>
-          <div>
-            <img src={HomePic} alt="home" style={image} />
-            <h1 style={HomeText}>
-              INNOVATION DIGITAL <br />
-              TECHNOLOGY
-            </h1>
-            <p style={SubText}>
-              everything we do is the consumer, imagination and you.
-            </p>
-          </div>
+        <div className="container-fluid">
+          <img src={HomePic} alt="home" style={image} />
+          <h1 style={HomeText}>
+            INNOVATION DIGITAL <br />
+            TECHNOLOGY
+          </h1>
+          <p style={SubText}>
+            everything we do is the consumer, imagination and you.
+          </p>
         </div>
       </div>
     </div>
